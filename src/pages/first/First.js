@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from '../../components/card/Card';
-
-import './First.scss';
 import Status from '../../components/status/Status';
 import Rating from '../../components/rating/Rating';
 import FirstChart from './FirstChart';
 import Message from '../../components/message/Message';
+
+import './First.scss';
+import upImg from '../../assets/images/up-arrow.png';
+import downImg from '../../assets/images/down-arrow.png';
 
 export default function First() {
   return (
@@ -31,6 +33,7 @@ export default function First() {
             <>
               <div className="First__content">
                 <p className="text--large text--warning">3.1</p>
+                <img src={downImg} alt="up" className="First__arrow" />
                 <p className="text--medium">от 3.9</p>
               </div>
               <p>
@@ -41,7 +44,9 @@ export default function First() {
           <Card title="Лучший город" link="/">
             <>
               <div className="First__content">
-                <p className="text--large text--white">4.35</p>
+                <p className="text--large text--white" style={{ marginRight: '2rem' }}>
+                  4.35
+                </p>
                 <p className="text--medium">г Алматы</p>
               </div>
               <div>
@@ -75,6 +80,7 @@ export default function First() {
                   <p className="text--large text--white">
                     51<span className="text--medium">%</span>
                   </p>
+                  <img src={upImg} alt="up" className="First__arrow" />
                   <p className="text--medium">от 48.5%</p>
                 </div>
                 <p>
@@ -85,7 +91,7 @@ export default function First() {
             <Card title="Активность граждан" link="/" tabs={['Женщин', 'Мужчин']}>
               <>
                 <div className="First__content">
-                  <p className="text--large text--white">
+                  <p className="text--large text--white" style={{ marginRight: '2rem' }}>
                     77<span className="text--medium">%</span>
                   </p>
                   <p className="text--medium">4 184 граждан</p>
