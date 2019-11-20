@@ -1,0 +1,21 @@
+.Message {
+  display: flex;
+  color: #fff;
+  height: 10rem;
+}
+
+.Message__logo {
+  background: #191f23;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Message__content {
+  padding: 1rem;
+}
+
+.Message__text {
+  font-size: 3rem;
+}
