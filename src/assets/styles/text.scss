@@ -1,0 +1,25 @@
+@import './variables';
+
+.text--large {
+  font-size: 10rem;
+}
+
+.text--medium {
+  font-size: 4rem;
+}
+
+.text--white {
+  color: #fff;
+}
+
+.text--success {
+  color: $success;
+}
+
+.text--danger {
+  color: $danger;
+}
+
+.text--warning {
+  color: $macaroni-and-cheese;
+}

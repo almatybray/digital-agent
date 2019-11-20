@@ -1,0 +1,25 @@
+.Rating {
+  display: inline-block;
+  margin-right: 2rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.Rating__star {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.Rating__number--small {
+  font-size: 2rem;
+}
+
+.Rating__number--medium {
+  font-size: 3rem;
+}
+
+.Rating__number--large {
+  font-size: 4rem;
+}
