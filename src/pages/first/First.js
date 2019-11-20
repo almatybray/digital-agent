@@ -42,12 +42,12 @@ export default function First() {
               <p className="text--large text--white">4.35</p>
               <p className="text--medium">г Алматы</p>
             </div>
-            <p>
+            <div>
               Лучшая организация :{' '}
               <span className="text--warning">
                 Поликлиника №3 ( <Rating rating="4.6" ratingSize="small" /> )
               </span>
-            </p>
+            </div>
           </>
         </Card>
         <Card title="Рейтинг Министерств" link="/" tabs={['Худшие', 'Лучшие']}>
@@ -130,13 +130,13 @@ export default function First() {
             </>
           </Card>
           <Card title="События" type="small">
-            <p>
+            <div>
               10:00{' '}
               <span className="text--white">
                 ЦЗН г. Алматы <span className="text--success">обработал</span> жалобу ({' '}
                 <Rating rating="4.2" ratingSize="small" /> )
               </span>
-            </p>
+            </div>
           </Card>
         </div>
       </div>
